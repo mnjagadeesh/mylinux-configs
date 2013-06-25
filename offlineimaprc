@@ -1,0 +1,55 @@
+[general]
+# change to whatever you want:
+accounts = homenet
+
+# Gives you a nice blinky output on the console so you know what's happening:
+#ui = Curses.Blinkenlights
+ui = machineui
+#ui = Tk.Blinkenlights, Tk.VerboseUI, Curses.Blinkenlights, TTY.TTYUI,
+     Noninteractive.Basic, Noninteractive.Quiet
+
+# If uncommented, this would show nothing at all. Great for cronjobs or background-processes:
+# ui = Noninteractive.Quiet 
+
+[Account homenet]
+# Profile-Name for the local Mails for a given Account
+localrepository = mylocal 
+
+# Profile-Name for the remote Mails for a given Account
+remoterepository = myremote 
+
+# fetches your mails every 5 Minutes
+autorefresh = 5 
+quick = 10
+
+[Repository mylocal]
+# Way of storing Mails locally. Only Maildir is currently supported:
+type = Maildir 
+
+# Place where the synced Mails should be:
+localfolders = ~/Mail 
+
+[Repository myremote]
+# Type of remote Mailbox. Only IMAP is supported right now:
+type = IMAP 
+#folderfilter = lambda foldername: foldername in ['INBOX', 'Download_Emails', 'Calendar', 'CABI', 'CABI_PROD']
+folderfilter = lambda foldername: foldername in ['INBOX', 'Download_Emails']
+
+# Where to connect:
+#remotehost = imap-bng.jnpr.net
+remotehost = pod51010.outlook.com
+
+# Whether to use SSL or not:
+#ssl = no
+
+# Would specify a port if uncommented. This way, it just tries to use a default-port:
+# remoteport = 143
+
+# Specify login-name:
+remoteuser = jagadeesh@homenet.net
+
+# Specify login-password (there are other/safer options for storing passwords for use by OfflineIMAP,
+# see the OfflineIMAP manual. Make sure that ~/.offlineimaprc is readable only by you, if you 
+# specify your password here!): 
+remotepass = mypass
+realdelete = yes

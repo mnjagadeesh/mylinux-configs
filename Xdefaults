@@ -1,0 +1,212 @@
+Xft.antialias:                 true
+Xft.hinting:                   true
+Xft.hintstyle:                 hintfull
+Xft.rgba:                      rgb
+!Urxvt.termName: rxvt
+URxvt.transparent: true
+!Urxvt.inheritPixmap: false
+URxvt.scrollBar: false
+Urxvt.savelines: 100000
+
+Urxvt.urlLauncher: firefox
+Urxvt.matcher.button: 1
+Urxvt.perl-ext-common: default,matcher,tabbed,strfinder
+URxvt.cursorBlink: true
+Urxvt.geometry: 84x26
+Urxvt.fading: 55%
+Urxvt.font: xft:Bitstream Vera Sans Mono:pixelsize=14
+Urxvt.boldfont: xft:Bitstream Vera Sans Mono:bold:pixelsize=14
+URxvt.depth: 24
+URxvt*termName:screen-256color
+!URxvt.background: rgba:0000/0000/000b/bddd
+!Urxvt.background: rgba:0000/0000/000b/dddd
+!Urxvt.background: rgba:0000/0000/000b/dddd
+!URxvt.foreground: grey80
+!Urxvt.tintColor: #161616
+!URxvt.foreground: #f2f2f2
+!URxvt.background: #101010
+
+URxvt.foreground: white
+URxvt.background: grey12
+URxt.tintColor: #363636
+URxvt.borderLess: false
+!Urxvt.borderColor: #888888
+!Urxvt.borderColor:  rgb:0/0/0
+URxvt.shading: 25
+Urxvt.internalBorder:0
+
+urxvt*color0:    #6c6c6c
+urxvt*color1:    #e9897c
+urxvt*color2:    #b6e77d
+urxvt*color3:    #ecebbe
+urxvt*color4:    #a9cdeb
+urxvt*color5:    #ea96eb
+urxvt*color6:    #c9caec
+urxvt*color7:    #f2f2f2
+
+urxvt*color8:    #747474
+urxvt*color9:    #f99286
+urxvt*color10:    #c3f786
+urxvt*color11:    #fcfbcc
+urxvt*color12:    #b6defb
+urxvt*color13:    #fba1fb
+urxvt*color14:    #d7d9fc
+urxvt*color15:    #e2e2e2
+
+!Urxvt*foreground:     rgba:0000/0000/0000/dddd
+!Urxvt*background:     rgb:10/10/10
+!black
+!Urxvt*color0:         rgb:20/20/20
+!Urxvt*color8:         rgb:75/77/73
+!!!red
+!Urxvt*color1:         rgb:cc/00/00
+!Urxvt*color9:         rgb:ef/29/29
+!!!green
+!Urxvt*color2:         rgb:4e/9a/06
+!Urxvt*color10:        rgb:8a/e2/34
+!!!brown/yellow
+!Urxvt*color3:         rgb:c4/a0/00
+!Urxvt*color11:        rgb:fc/e9/4f
+!!!blue
+!Urxvt*color4:         rgb:34/65/a4
+!Urxvt*color12:        rgb:72/9f/cf
+!!!magenta
+!Urxvt*color5:         rgb:75/50/7b
+!Urxvt*color13:        rgb:ad/7f/a8
+!!!cyan
+!Urxvt*color6:         rgb:06/98/9a
+!Urxvt*color14:        rgb:34/e2/e2
+!!!white
+!Urxvt*color7:         rgb:d3/d7/cf
+!Urxvt*color15:        rgb:ee/ee/ec
+!
+!
+Emacs.geometry: 85x45+70+0
+Emacs.font: 9x15
+!!Emacs.background: midnightblue
+!!Emacs.background: white
+!!Emacs.foreground: grey90
+Emacs.cursorColor: cyan
+Emacs.pointerColor: cyan
+Emacs.bitmapIcon: on
+Emacs.verticalScrollBars: off
+
+Emacs.modeline.attributeForeground: black
+Emacs.modeline.attributeBackground: grey
+Emacs.region.attributeForeground: black
+Emacs.region.attributeBackground: grey
+Emacs.highlight.attributeForeground: black
+Emacs.highlight.attributeBackground: grey
+Emacs.secondary-selection.attributeForeground: black
+Emacs.secondary-selection.attributeBackground: green
+
+Emacs.font-lock-function-name-face.attributeForeground: cyan 
+Emacs.font-lock-comment-face.attributeForeground: SpringGreen
+Emacs.font-lock-doc-string-face.attributeForeground: SpringGreen
+Emacs.font-lock-preprocessor-face.attributeForeground: cyan
+Emacs.font-lock-keyword-face.attributeForeground: Yellow
+Emacs.font-lock-variable-name-face.attributeForeground: Gold
+Emacs.font-lock-string-face.attributeForeground: Wheat
+Emacs.font-lock-type-face.attributeForeground: deepskyblue
+
+Emacs.info-node.attributeForeground: cyan
+Emacs.info-node.attributeFont: default
+Emacs.info-xref.attributeForeground: cyan
+Emacs.info-xref.attributeFont: default
+
+Emacs.bold-italic.attributeForeground:cyan
+Emacs.italic.attributeForeground:lightgoldenrodyellow
+Emacs.underline.attributeForeground:gold
+Emacs.underline.attributeUnderline:no
+Emacs.bold.attributeForeground:cyan
+
+Emacs*menubar.foreground: black
+Emacs*menubar.background: grey
+Emacs*menubar.font: 9x15
+Emacs*menu.popup.foreground: black
+Emacs*menu.popup.background: grey
+Emacs*menu.popup.font: 9x15
+Emacs.popup.foreground: black
+Emacs.font: Terminus-9
+
+!aterm*scrollTtyOutput: false
+!!aterm*backspacekey: 10
+!!#aterm*deletekey: 177
+!aterm*foreground: white
+!aterm*background: black
+!aterm*transparent: true
+!aterm*shading: 99
+!aterm*saveLines: 1000
+!!#aterm*tintingType: true
+!!#aterm*tinting: #c0c0c0
+!aterm*fading: 50
+!aterm*transpscrollbar: true
+!aterm*troughColor: red
+!aterm*pointerColor: green
+!aterm*pointerColorBackground: black
+!aterm*loginShell: true
+!aterm*colorBD: yellow
+!aterm*colorUL: magenta
+!aterm*cursorColor: red3
+!aterm*cursorColor2: yellow
+!aterm*scrollBar: off
+!ater*borderLess: false
+!aterm*tintColor: #262626
+
+xcalc*geometry: 200x275
+ xcalc.ti.bevel.background: #111111
+ xcalc.ti.bevel.screen.background: #000000
+ xcalc.ti.bevel.screen.DEG.background: #000000
+ xcalc.ti.bevel.screen.DEG.foreground: LightSeaGreen
+ xcalc.ti.bevel.screen.GRAD.background: #000000
+ xcalc.ti.bevel.screen.GRAD.foreground: LightSeaGreen
+ xcalc.ti.bevel.screen.RAD.background: #000000
+ xcalc.ti.bevel.screen.RAD.foreground: LightSeaGreen
+ xcalc.ti.bevel.screen.INV.background: #000000
+ xcalc.ti.bevel.screen.INV.foreground: Red
+ xcalc.ti.bevel.screen.LCD.background: #000000
+ xcalc.ti.bevel.screen.LCD.foreground: LightSeaGreen
+ xcalc.ti.bevel.screen.LCD.shadowWidth: 0
+ xcalc.ti.bevel.screen.M.background: #000000
+ xcalc.ti.bevel.screen.M.foreground: LightSeaGreen
+ xcalc.ti.bevel.screen.P.background: #000000
+ xcalc.ti.bevel.screen.P.foreground: Yellow
+ xcalc.ti.Command.foreground: White
+ xcalc.ti.Command.background: #777777
+ xcalc.ti.button5.background: Orange3
+ xcalc.ti.button19.background: #611161
+ xcalc.ti.button18.background: #611161
+ xcalc.ti.button20.background: #611111
+ xcalc.ti.button25.background: #722222
+ xcalc.ti.button30.background: #833333
+ xcalc.ti.button35.background: #944444
+ xcalc.ti.button40.background: #a55555
+ xcalc.ti.button22.background: #222262
+ xcalc.ti.button23.background: #222262
+ xcalc.ti.button24.background: #222272
+ xcalc.ti.button27.background: #333373
+ xcalc.ti.button28.background: #333373
+ xcalc.ti.button29.background: #333373
+ xcalc.ti.button32.background: #444484
+ xcalc.ti.button33.background: #444484
+ xcalc.ti.button34.background: #444484
+ xcalc.ti.button37.background: #555595
+ xcalc.ti.button38.background: #555595
+ xcalc.ti.button39.background: #555595
+ XCalc*Cursor:                 hand2
+ XCalc*ShapeStyle:             rectangle
+ Xmessage.form.okay.shapeStyle:         rectangle
+ Xmessage.form.okay.background:         #777777
+ Xmessage.form.okay.foreground:         snow
+ !Xmessage*message*background:          snow
+ Xmessage*buttons:                       OK
+ Xmessage*defaultButton:                 OK
+ !Xmessage*Background:                  black
+ !Xmessage*Foreground:                  grey85
+ !Xmessage.Scrollbar:                   WhenNeeded
+ Xmessage.form.message.Scroll:          WhenNeeded
+ Xmessage*Font:                         -*-terminus-medium-*-*-*-12-*-*-*-*-*-*-*
+ Xmessage*borderWidth:                  0
+ Xmessage*Text.borderWidth:             0
+ Xmessage*Command.shapeStyle:           rectangle
+ Xmessage*Text.?.cursorColor:           white
