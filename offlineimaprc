@@ -36,7 +36,6 @@ type = IMAP
 folderfilter = lambda foldername: foldername in ['INBOX', 'Download_Emails']
 
 # Where to connect:
-#remotehost = imap-bng.jnpr.net
 remotehost = pod51010.outlook.com
 
 # Whether to use SSL or not:
